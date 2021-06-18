@@ -27,3 +27,13 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+.search {
+    border-style: hidden;
+}
+
+input:focus-visible {
+    border-color: inherit;
+    box-shadow: none;
+}
+
