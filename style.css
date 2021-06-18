@@ -12,6 +12,12 @@
 
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
+}
+
+a {
+    padding: 7px;
+    text-decoration: none;
+    color: initial;
 }
