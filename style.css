@@ -45,6 +45,7 @@ main {
 
 .search {
     border-style: hidden;
+    width: 490px;
 }
 
 input[type='text']:focus {
