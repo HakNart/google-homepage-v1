@@ -14,6 +14,7 @@ header {
     top: 0; */
     width: 100%;
     height: 36px;
+    display: flex;
 }
 
 nav {
@@ -21,6 +22,7 @@ nav {
 }
 
 .flex-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,6 +39,10 @@ footer {
     bottom: 0px; */
     width: 100%;
     height: 36px;
+}
+
+footer div {
+    align-self: center;
 }
 
 a {
