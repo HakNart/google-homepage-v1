@@ -1,7 +1,7 @@
 html {
     height: 100%;
     box-sizing: border-box;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 body {
@@ -9,7 +9,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(34, 34, 34);
 }
+
+a {
+    padding: 7px;
+    text-decoration: none;
+    color: inherit;
+}
+
 
 header {
     /* position: fixed;
@@ -42,6 +51,11 @@ nav {
 footer {
     width: 100%;
     flex: 0 0 36px;
+    background-color: #f2f2f2;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #70757a;
+    font-size: 14px;
 }
 
 footer div {
@@ -50,11 +64,6 @@ footer div {
     padding-right: 15px;
 }
 
-a {
-    padding: 7px;
-    text-decoration: none;
-    color: initial;
-}
 
 a:hover {
     text-decoration: underline;
